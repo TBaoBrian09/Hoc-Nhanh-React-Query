@@ -31,7 +31,7 @@ export default function Students() {
   }
 
   const handlePrefetchStudent = (id: number) => {
-    
+    queryClient.pre
   }
 
   const totalStudentsCount = Number(studentQuery.data?.headers['x-total-count'] || 0)
